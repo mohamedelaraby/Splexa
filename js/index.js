@@ -5,5 +5,6 @@
 */
 
 //Get the current year for the copyright
-
-$('#year').text(new Date().getFullYear());
+$(document).ready(function(){
+     $('#year').text(new Date().getFullYear());
+  });
