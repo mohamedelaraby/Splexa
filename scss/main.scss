@@ -1,0 +1,81 @@
+/*
+[  author ] ;- Muhammed alaraby
+[  Date   ] ;- 19/10/19
+[  Info   ] ;- main style sheet file
+*/
+
+// Import Helper Style files
+@import 'config';
+@import 'utilities';
+
+// body
+body{
+    background: $dark-color;
+    color: set-text-color($dark-color);
+}
+
+// Navbar
+.navbar {
+    border-bottom:$lightblue-color 0.3rem solid;
+    opacity: 0.8;
+}
+
+// Home form
+#home-section{
+  background-image: url(/dist/images/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 45rem;
+  
+
+  //.dark-overlay
+    .dark-overlay{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         min-height: 45rem;
+         background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    // home-inner
+    .home-inner{
+        padding-top: 13rem;
+
+        // home-inner-text-highlighted
+        &-text-highlight{
+            font-weight: bold;
+        }
+
+        // card-form
+        &-card-form{
+            opacity: 0.8;
+        }
+
+        // Home icons
+        &-icon{
+            background: $primary-color;
+            color: $lightblue-color;
+            padding: 0.5rem;
+            border-radius: 0.4rem;
+        }
+    }
+
+    .fa-check{
+        font-size: 2.5rem;
+    }
+    
+}
+
+// Explore Section
+#explore-section{
+    // icons
+    .explore-inner-icon{
+        background: $dark-color;
+        color: $primary-color;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        font-size: 2.5rem;
+    }
+}
