@@ -3,6 +3,11 @@
 [  Date   ] ;- 19/10/19
 [  Info   ] ;- Helper utilities.scss preprocessor style
 */
+/*
+[  author ] ;- Muhammed alaraby
+[  Date   ] ;- 19/10/19
+[  Info   ] ;- confinguration important variables preprocessor style
+*/
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;

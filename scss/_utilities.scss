@@ -4,6 +4,8 @@
 [  Info   ] ;- Helper utilities.scss preprocessor style
 */
 
+@import 'config';
+
   .btn-main, .btn-light, .btn-dark {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -29,4 +31,4 @@
     margin: 0 auto 1rem auto;
     display: block;
   }
-  
+

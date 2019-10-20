@@ -13,6 +13,11 @@
 [  Date   ] ;- 19/10/19
 [  Info   ] ;- Helper utilities.scss preprocessor style
 */
+/*
+[  author ] ;- Muhammed alaraby
+[  Date   ] ;- 19/10/19
+[  Info   ] ;- confinguration important variables preprocessor style
+*/
 .btn-main, .btn-light, .btn-dark {
   display: inline-block;
   padding: 0.8rem 2rem;
@@ -45,6 +50,22 @@ body {
   opacity: 0.8;
 }
 
+#home-section .home-inner-icon, #create-section .create-inner-icon {
+  background: #fff;
+  color: #008ed6;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 2.5rem;
+}
+
+#explore-section .explore-inner-icon, #share-section .share-inner-icon {
+  background: #333;
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+}
+
 #home-section {
   background-image: url(/dist/images/home.jpg);
   background-repeat: no-repeat;
@@ -74,21 +95,11 @@ body {
   opacity: 0.8;
 }
 
-#home-section .home-inner-icon {
-  background: #fff;
-  color: #008ed6;
-  padding: 0.5rem;
-  border-radius: 0.4rem;
-}
-
 #home-section .fa-check {
   font-size: 2.5rem;
 }
 
-#explore-section .explore-inner-icon {
-  background: #333;
-  color: #fff;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  font-size: 2.5rem;
+#main-footer .btn {
+  border-radius: 1rem;
+  transition: all 1s;
 }
